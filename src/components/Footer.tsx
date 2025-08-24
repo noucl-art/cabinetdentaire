@@ -32,11 +32,11 @@ const Footer = () => {
             <div className="space-y-2 text-gray-400">
               <p className="flex items-center">
                 <Phone className="h-4 w-4 mr-2" />
-                01 45 67 89 00
+                02 43 84 62 74
               </p>
               <p className="flex items-center">
                 <MapPin className="h-4 w-4 mr-2" />
-                42 Avenue Victor Hugo, 75016 Paris
+                10 Rue de L'Epau 72560 Changé
               </p>
             </div>
           </div>
