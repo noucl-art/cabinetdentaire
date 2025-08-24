@@ -19,12 +19,12 @@ const HomePage = () => {
                 de dentisterie générale et d'orthodontie dans un environnement chaleureux et professionnel.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a 
-                  href="tel:0145678900" 
+                <Link 
+                  to="/orthodontie"
                   className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-all duration-200 hover:shadow-lg transform hover:-translate-y-1 font-semibold text-center"
                 >
-                  Prendre Rendez-vous : 01 45 67 89 00
-                </a>
+                  Orthodontie
+                </Link>
                 <Link 
                   to="/infos-pratiques"
                   className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg hover:bg-blue-600 hover:text-white transition-all duration-200 font-semibold text-center"

@@ -235,7 +235,7 @@ const OrthodonitePage = () => {
         </section>
 
         {/* Call to Action */}
-        <section className="bg-gradient-to-r from-green-600 to-blue-600 text-white p-12 rounded-2xl text-center">
+        <section className="bg-gradient-to-r from-green-600 to-blue-600 text-white p-12 rounded-2xl text-center mb-12">
           <h2 className="text-4xl font-bold mb-6">Prêt à Transformer Votre Sourire ?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Prenez rendez-vous dès aujourd'hui pour une consultation personnalisée 
@@ -243,18 +243,58 @@ const OrthodonitePage = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="https://www.doctolib.fr" 
+              href="https://www.doctolib.fr/dentiste/change/olivia-charlot" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-white text-green-600 px-8 py-4 rounded-lg hover:bg-gray-100 transition-all duration-200 hover:shadow-lg transform hover:-translate-y-1 font-semibold text-lg inline-flex items-center justify-center"
+              className="bg-white text-green-600 px-12 py-6 rounded-lg hover:bg-gray-100 transition-all duration-200 hover:shadow-lg transform hover:-translate-y-1 font-bold text-xl inline-flex items-center justify-center"
             >
-              <Calendar className="h-5 w-5 mr-2" />
-              Prendre RDV sur Doctolib
-              <ArrowRight className="h-5 w-5 ml-2" />
+              <Calendar className="h-6 w-6 mr-3" />
+              Prendre Rendez-vous
+              <ArrowRight className="h-6 w-6 ml-3" />
             </a>
             <a 
               href="tel:0145678900" 
               className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white hover:text-green-600 transition-all duration-200 font-semibold text-lg"
+            >
+              Ou appelez : 01 45 67 89 00
+            </a>
+          </div>
+        </section>
+
+        {/* Bouton RDV très visible en haut */}
+        <section className="fixed top-20 right-6 z-40">
+          <a 
+            href="https://www.doctolib.fr/dentiste/change/olivia-charlot" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-green-600 text-white px-6 py-3 rounded-full shadow-2xl hover:bg-green-700 transition-all duration-200 hover:shadow-xl transform hover:scale-105 font-bold text-lg inline-flex items-center animate-pulse"
+          >
+            <Calendar className="h-5 w-5 mr-2" />
+            Prendre RDV
+          </a>
+        </section>
+
+        {/* Ancien Call to Action transformé */}
+        <section className="bg-gradient-to-r from-blue-50 to-green-50 p-12 rounded-2xl text-center">
+          <h2 className="text-4xl font-bold mb-6">Prêt à Transformer Votre Sourire ?</h2>
+          <p className="text-xl mb-8 max-w-3xl mx-auto">
+            Prenez rendez-vous dès aujourd'hui pour une consultation personnalisée 
+            et découvrez le traitement orthodontique qui vous convient le mieux.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a 
+              href="https://www.doctolib.fr/dentiste/change/olivia-charlot" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-green-600 text-white px-12 py-6 rounded-lg hover:bg-green-700 transition-all duration-200 hover:shadow-lg transform hover:-translate-y-1 font-bold text-xl inline-flex items-center justify-center"
+            >
+              <Calendar className="h-6 w-6 mr-3" />
+              Prendre Rendez-vous avec Dr Charlot Olivia
+              <ArrowRight className="h-6 w-6 ml-3" />
+            </a>
+            <a 
+              href="tel:0145678900" 
+              className="border-2 border-green-600 text-green-600 px-8 py-4 rounded-lg hover:bg-green-600 hover:text-white transition-all duration-200 font-semibold text-lg"
             >
               Ou appelez : 01 45 67 89 00
             </a>
