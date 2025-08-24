@@ -1,5 +1,4 @@
-import React from 'react';
-import { Phone, MapPin, Clock, CreditCard, Calendar, Navigation, Euro, CheckCircle } from 'lucide-react';
+
 
 const InfosPratiquesPage = () => {
   return (
@@ -18,7 +17,7 @@ const InfosPratiquesPage = () => {
           <div className="bg-gradient-to-r from-blue-600 to-green-600 text-white p-12 rounded-2xl text-center">
             <h2 className="text-3xl font-bold mb-6">Contact & Rendez-vous</h2>
             <div className="flex flex-col items-center space-y-4">
-              <Phone className="h-16 w-16 mb-4" />
+              <span className="text-6xl mb-4">📞</span>
               <a 
                 href="tel:0145678900" 
                 className="text-4xl font-bold hover:text-blue-200 transition-colors"
@@ -43,7 +42,7 @@ const InfosPratiquesPage = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <div className="flex items-center mb-6">
-                <Clock className="h-12 w-12 text-blue-600 mr-4" />
+                <span className="text-5xl text-blue-600 mr-4">⏰</span>
                 <h2 className="text-3xl font-bold text-gray-900">Horaires d'Ouverture</h2>
               </div>
               <div className="space-y-4">
@@ -80,7 +79,7 @@ const InfosPratiquesPage = () => {
 
             <div className="bg-green-50 p-8 rounded-2xl">
               <div className="flex items-center mb-6">
-                <Calendar className="h-12 w-12 text-green-600 mr-4" />
+                <span className="text-5xl text-green-600 mr-4">📅</span>
                 <h2 className="text-3xl font-bold text-gray-900">Comment Prendre RDV</h2>
               </div>
               <div className="space-y-6">
@@ -128,7 +127,7 @@ const InfosPratiquesPage = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <div className="flex items-center mb-6">
-                <MapPin className="h-12 w-12 text-red-600 mr-4" />
+                <span className="text-5xl text-red-600 mr-4">📍</span>
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900">Adresse</h3>
                   <p className="text-gray-600">Cabinet Dentaire Charlot</p>
@@ -141,7 +140,7 @@ const InfosPratiquesPage = () => {
                   France
                 </div>
                 <div className="flex items-center space-x-2">
-                  <Navigation className="h-5 w-5 text-blue-600" />
+                  <span className="text-blue-600">🧭</span>
                   <a 
                     href="https://maps.google.com/?q=42+Avenue+Victor+Hugo+75016+Paris" 
                     target="_blank" 
@@ -216,7 +215,7 @@ const InfosPratiquesPage = () => {
         <section className="mb-20">
           <div className="bg-gradient-to-r from-gray-50 to-gray-100 p-12 rounded-2xl">
             <div className="text-center mb-12">
-              <CreditCard className="h-16 w-16 text-green-600 mx-auto mb-4" />
+              <span className="text-6xl text-green-600 mx-auto mb-4 block">💳</span>
               <h2 className="text-4xl font-bold text-gray-900 mb-4">Moyens de Paiement</h2>
               <p className="text-xl text-gray-600">Nous acceptons plusieurs modes de règlement</p>
             </div>
@@ -224,7 +223,7 @@ const InfosPratiquesPage = () => {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center p-6">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Euro className="h-8 w-8 text-green-600" />
+                  <span className="text-4xl text-green-600">€</span>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Espèces</h3>
                 <p className="text-gray-600">Paiement en liquide accepté</p>
@@ -232,7 +231,7 @@ const InfosPratiquesPage = () => {
 
               <div className="text-center p-6">
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <CreditCard className="h-8 w-8 text-blue-600" />
+                  <span className="text-4xl text-blue-600">💳</span>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Cartes Bancaires</h3>
                 <p className="text-gray-600">Visa, Mastercard, American Express</p>
@@ -240,7 +239,7 @@ const InfosPratiquesPage = () => {
 
               <div className="text-center p-6">
                 <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <CheckCircle className="h-8 w-8 text-purple-600" />
+                  <span className="text-4xl text-purple-600">✅</span>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Chèques</h3>
                 <p className="text-gray-600">Chèques bancaires acceptés</p>
@@ -282,19 +281,19 @@ const InfosPratiquesPage = () => {
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Première Visite</h3>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-5 w-5 text-green-600 mt-1 flex-shrink-0" />
+                  <span className="text-green-600 mt-1 flex-shrink-0">✅</span>
                   <p className="text-gray-700">Apportez votre carte Vitale et mutuelle</p>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-5 w-5 text-green-600 mt-1 flex-shrink-0" />
+                  <span className="text-green-600 mt-1 flex-shrink-0">✅</span>
                   <p className="text-gray-700">Radiographies récentes si disponibles</p>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-5 w-5 text-green-600 mt-1 flex-shrink-0" />
+                  <span className="text-green-600 mt-1 flex-shrink-0">✅</span>
                   <p className="text-gray-700">Liste de vos médicaments actuels</p>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-5 w-5 text-green-600 mt-1 flex-shrink-0" />
+                  <span className="text-green-600 mt-1 flex-shrink-0">✅</span>
                   <p className="text-gray-700">Arrivez 10 minutes avant votre RDV</p>
                 </div>
               </div>

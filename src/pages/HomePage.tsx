@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Activity, Heart, Shield, Award, Users, Building2, ArrowRight } from 'lucide-react';
 
 const HomePage = () => {
   return (
@@ -71,11 +70,11 @@ const HomePage = () => {
                 Spécialisée en dentisterie générale avec plus de 25 ans d'expérience. 
                 Expertise en soins conservateurs, prothèses et chirurgie dentaire.
               </p>
-              <Link 
+                              <Link 
                 to="/dr-charlot-veronique"
                 className="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold"
               >
-                En savoir plus <ArrowRight className="ml-2 h-4 w-4" />
+                En savoir plus <span className="ml-2">→</span>
               </Link>
             </div>
 
@@ -99,7 +98,7 @@ const HomePage = () => {
                 to="/dr-charlot-olivia"
                 className="inline-flex items-center text-green-600 hover:text-green-700 font-semibold"
               >
-                En savoir plus <ArrowRight className="ml-2 h-4 w-4" />
+                En savoir plus <span className="ml-2">→</span>
               </Link>
             </div>
           </div>
@@ -117,21 +116,21 @@ const HomePage = () => {
               </p>
               <div className="space-y-4">
                 <div className="flex items-start space-x-4">
-                  <Building2 className="h-6 w-6 text-blue-600 mt-1 flex-shrink-0" />
+                  <span className="text-2xl mt-1">🏥</span>
                   <div>
                     <h3 className="font-semibold text-gray-900">Équipements Modernes</h3>
                     <p className="text-gray-600">Technologies de pointe pour des soins optimaux et confortables</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <Shield className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
+                  <span className="text-2xl mt-1">🛡️</span>
                   <div>
                     <h3 className="font-semibold text-gray-900">Hygiène Irréprochable</h3>
                     <p className="text-gray-600">Protocoles de stérilisation stricts selon les normes européennes</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <Heart className="h-6 w-6 text-red-500 mt-1 flex-shrink-0" />
+                  <span className="text-2xl mt-1">❤️</span>
                   <div>
                     <h3 className="font-semibold text-gray-900">Accueil Personnalisé</h3>
                     <p className="text-gray-600">Prise en charge bienveillante dans un cadre apaisant</p>
@@ -168,7 +167,7 @@ const HomePage = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-blue-50 p-8 rounded-xl hover:shadow-lg transition-all duration-200 transform hover:-translate-y-2">
               <div className="flex items-center mb-6">
-                <Activity className="h-12 w-12 text-blue-600 mr-4" />
+                <span className="text-5xl mr-4">🦷</span>
                 <h3 className="text-2xl font-semibold text-gray-900">Chirurgie Dentaire</h3>
               </div>
               <ul className="space-y-3 text-gray-700">
@@ -197,7 +196,7 @@ const HomePage = () => {
 
             <div className="bg-green-50 p-8 rounded-xl hover:shadow-lg transition-all duration-200 transform hover:-translate-y-2">
               <div className="flex items-center mb-6">
-                <Heart className="h-12 w-12 text-green-600 mr-4" />
+                <span className="text-5xl mr-4">😁</span>
                 <h3 className="text-2xl font-semibold text-gray-900">Orthodontie</h3>
               </div>
               <ul className="space-y-3 text-gray-700 mb-6">
@@ -226,7 +225,7 @@ const HomePage = () => {
                 to="/orthodontie"
                 className="inline-flex items-center text-green-600 hover:text-green-700 font-semibold"
               >
-                En savoir plus sur l'orthodontie <ArrowRight className="ml-2 h-4 w-4" />
+                En savoir plus sur l'orthodontie <span className="ml-2">→</span>
               </Link>
             </div>
           </div>

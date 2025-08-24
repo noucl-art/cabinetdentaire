@@ -1,0 +1,11 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+
+
+You are on windows
+To run an node or npm command, you must run $env:PATH += ";C:\Program Files\nodejs;$env:APPDATA\npm"; npm run dev
+
+Never install lucid-chart, it is banned

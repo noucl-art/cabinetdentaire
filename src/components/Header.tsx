@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Activity } from 'lucide-react';
 
 const Header = () => {
   const location = useLocation();
@@ -14,7 +13,9 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center">
-            <Activity className="h-8 w-8 text-blue-600 mr-2" />
+            <div className="h-8 w-8 bg-blue-600 rounded mr-2 flex items-center justify-center">
+              <span className="text-white font-bold">C</span>
+            </div>
             <span className="text-xl font-bold text-gray-900">Cabinet Dentaire Charlot</span>
           </Link>
           <nav className="hidden md:flex items-center space-x-6">

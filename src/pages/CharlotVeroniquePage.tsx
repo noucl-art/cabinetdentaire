@@ -1,5 +1,4 @@
 import React from 'react';
-import { Activity, Award, Star, GraduationCap, Heart, Shield } from 'lucide-react';
 
 const CharlotVeroniquePage = () => {
   return (
@@ -25,11 +24,11 @@ const CharlotVeroniquePage = () => {
             </p>
             <div className="flex items-center space-x-4">
               <div className="flex items-center">
-                <Award className="h-6 w-6 text-yellow-500 mr-2" />
+                <span className="text-yellow-500 mr-2">🏆</span><span className="hidden" />
                 <span className="font-semibold text-gray-900">25+ ans d'expérience</span>
               </div>
               <div className="flex items-center">
-                <Star className="h-6 w-6 text-yellow-500 mr-2" />
+                <span className="text-yellow-500 mr-2">⭐</span><span className="hidden" />
                 <span className="font-semibold text-gray-900">Expertise reconnue</span>
               </div>
             </div>
@@ -43,7 +42,7 @@ const CharlotVeroniquePage = () => {
             <div className="grid md:grid-cols-2 gap-8">
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
-                  <GraduationCap className="h-6 w-6 text-blue-600 mt-1 flex-shrink-0" />
+                  <span className="text-2xl text-blue-600 mt-1 flex-shrink-0">🎓</span><span className="hidden" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Doctorat en Chirurgie Dentaire</h3>
                     <p className="text-gray-600">Université Paris Descartes - Faculté de Chirurgie Dentaire</p>
@@ -51,7 +50,7 @@ const CharlotVeroniquePage = () => {
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <Award className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
+                  <span className="text-2xl text-green-600 mt-1 flex-shrink-0">🏆</span><span className="hidden" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Diplôme Universitaire en Parodontologie</h3>
                     <p className="text-gray-600">Université Paris VII - Denis Diderot</p>
@@ -61,7 +60,7 @@ const CharlotVeroniquePage = () => {
               </div>
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
-                  <Star className="h-6 w-6 text-purple-600 mt-1 flex-shrink-0" />
+                  <span className="text-2xl text-purple-600 mt-1 flex-shrink-0">⭐</span><span className="hidden" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Formation en Implantologie</h3>
                     <p className="text-gray-600">Institut de Formation Continue</p>
@@ -69,7 +68,7 @@ const CharlotVeroniquePage = () => {
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <Heart className="h-6 w-6 text-red-500 mt-1 flex-shrink-0" />
+                  <span className="text-2xl text-red-500 mt-1 flex-shrink-0">❤️</span><span className="hidden" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Certification en Sédation Consciente</h3>
                     <p className="text-gray-600">Formation spécialisée pour patients anxieux</p>
@@ -87,7 +86,7 @@ const CharlotVeroniquePage = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 transform hover:-translate-y-2">
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
-                <Activity className="h-8 w-8 text-blue-600" />
+                <span className="text-4xl text-blue-600">🦷</span><span className="hidden" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Dentisterie Conservatrice</h3>
               <ul className="space-y-2 text-gray-600">
@@ -100,7 +99,7 @@ const CharlotVeroniquePage = () => {
 
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 transform hover:-translate-y-2">
               <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
-                <Shield className="h-8 w-8 text-green-600" />
+                <span className="text-4xl text-green-600">🛡️</span><span className="hidden" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Parodontologie</h3>
               <ul className="space-y-2 text-gray-600">
@@ -113,7 +112,7 @@ const CharlotVeroniquePage = () => {
 
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 transform hover:-translate-y-2">
               <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6">
-                <Award className="h-8 w-8 text-purple-600" />
+                <span className="text-4xl text-purple-600">🏆</span><span className="hidden" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Prothèses Dentaires</h3>
               <ul className="space-y-2 text-gray-600">
@@ -139,21 +138,21 @@ const CharlotVeroniquePage = () => {
               </blockquote>
               <div className="space-y-4">
                 <div className="flex items-start space-x-4">
-                  <Heart className="h-6 w-6 text-red-500 mt-1 flex-shrink-0" />
+                  <span className="text-2xl text-red-500 mt-1 flex-shrink-0">❤️</span><span className="hidden" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Écoute et Bienveillance</h3>
                     <p className="text-gray-600">Prise en compte de vos préoccupations et de vos craintes</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <Shield className="h-6 w-6 text-blue-500 mt-1 flex-shrink-0" />
+                  <span className="text-2xl text-blue-500 mt-1 flex-shrink-0">🛡️</span><span className="hidden" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Prévention Avant Tout</h3>
                     <p className="text-gray-600">Conseils personnalisés pour maintenir une hygiène optimale</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <Star className="h-6 w-6 text-yellow-500 mt-1 flex-shrink-0" />
+                  <span className="text-2xl text-yellow-500 mt-1 flex-shrink-0">⭐</span><span className="hidden" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Excellence Technique</h3>
                     <p className="text-gray-600">Formation continue et utilisation des dernières technologies</p>

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Activity, Phone, MapPin } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -9,7 +8,9 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center mb-4">
-              <Activity className="h-8 w-8 text-blue-400 mr-2" />
+              <div className="h-8 w-8 bg-blue-400 rounded mr-2 flex items-center justify-center">
+                <span className="text-white font-bold">C</span>
+              </div>
               <span className="text-xl font-bold">Cabinet Charlot</span>
             </div>
             <p className="text-gray-400">
@@ -31,11 +32,11 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Contact</h4>
             <div className="space-y-2 text-gray-400">
               <p className="flex items-center">
-                <Phone className="h-4 w-4 mr-2" />
+                <span className="mr-2">📞</span>
                 02 43 84 62 74
               </p>
               <p className="flex items-center">
-                <MapPin className="h-4 w-4 mr-2" />
+                <span className="mr-2">📍</span>
                 10 Rue de L'Epau 72560 Changé
               </p>
             </div>

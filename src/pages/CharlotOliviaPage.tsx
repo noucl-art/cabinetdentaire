@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Activity, Award, Star, GraduationCap, Heart, Shield, ArrowRight } from 'lucide-react';
 
 const CharlotOliviaPage = () => {
   return (
@@ -27,11 +26,11 @@ const CharlotOliviaPage = () => {
             </p>
             <div className="flex items-center space-x-4">
               <div className="flex items-center">
-                <Award className="h-6 w-6 text-yellow-500 mr-2" />
+                <span className="text-yellow-500 mr-2">🏆</span><span className="hidden" />
                 <span className="font-semibold text-gray-900">15+ ans d'expérience</span>
               </div>
               <div className="flex items-center">
-                <Star className="h-6 w-6 text-yellow-500 mr-2" />
+                <span className="text-yellow-500 mr-2">⭐</span><span className="hidden" />
                 <span className="font-semibold text-gray-900">Spécialiste orthodontie</span>
               </div>
             </div>
@@ -45,7 +44,7 @@ const CharlotOliviaPage = () => {
             <div className="grid md:grid-cols-2 gap-8">
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
-                  <GraduationCap className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
+                  <span className="text-2xl text-green-600 mt-1 flex-shrink-0">🎓</span><span className="hidden" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Doctorat en Chirurgie Dentaire</h3>
                     <p className="text-gray-600">Université Paris Descartes - Faculté de Chirurgie Dentaire</p>
@@ -53,7 +52,7 @@ const CharlotOliviaPage = () => {
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <Award className="h-6 w-6 text-blue-600 mt-1 flex-shrink-0" />
+                  <span className="text-2xl text-blue-600 mt-1 flex-shrink-0">🏆</span><span className="hidden" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Diplôme Universitaire d'Orthodontie</h3>
                     <p className="text-gray-600">Université Paris VII - Denis Diderot</p>
@@ -63,7 +62,7 @@ const CharlotOliviaPage = () => {
               </div>
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
-                  <Star className="h-6 w-6 text-purple-600 mt-1 flex-shrink-0" />
+                  <span className="text-2xl text-purple-600 mt-1 flex-shrink-0">⭐</span><span className="hidden" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Certification Invisalign</h3>
                     <p className="text-gray-600">Formation spécialisée en aligneurs transparents</p>
@@ -71,7 +70,7 @@ const CharlotOliviaPage = () => {
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <Heart className="h-6 w-6 text-red-500 mt-1 flex-shrink-0" />
+                  <span className="text-2xl text-red-500 mt-1 flex-shrink-0">❤️</span><span className="hidden" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Formation en Orthodontie Linguale</h3>
                     <p className="text-gray-600">Techniques orthodontiques invisibles</p>
@@ -90,7 +89,7 @@ const CharlotOliviaPage = () => {
             {/* Omnipratique */}
             <div className="bg-blue-50 p-8 rounded-2xl">
               <div className="flex items-center mb-6">
-                <Activity className="h-12 w-12 text-blue-600 mr-4" />
+                <span className="text-5xl text-blue-600 mr-4">🦷</span><span className="hidden" />
                 <h3 className="text-2xl font-semibold text-gray-900">Dentisterie Générale</h3>
               </div>
               <ul className="space-y-3 text-gray-700">
@@ -124,7 +123,7 @@ const CharlotOliviaPage = () => {
             {/* Orthodontie */}
             <div className="bg-green-50 p-8 rounded-2xl">
               <div className="flex items-center mb-6">
-                <Heart className="h-12 w-12 text-green-600 mr-4" />
+                <span className="text-5xl text-green-600 mr-4">😁</span><span className="hidden" />
                 <h3 className="text-2xl font-semibold text-gray-900">Orthodontie</h3>
               </div>
               <ul className="space-y-3 text-gray-700 mb-6">
@@ -157,7 +156,7 @@ const CharlotOliviaPage = () => {
                 to="/orthodontie"
                 className="inline-flex items-center text-green-600 hover:text-green-700 font-semibold"
               >
-                Découvrir nos traitements orthodontiques <ArrowRight className="ml-2 h-4 w-4" />
+                Découvrir nos traitements orthodontiques <span className="ml-2">→</span>
               </Link>
             </div>
           </div>
@@ -169,7 +168,7 @@ const CharlotOliviaPage = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center p-6">
               <div className="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Heart className="h-10 w-10 text-blue-600" />
+                <span className="text-4xl text-blue-600">❤️</span><span className="hidden" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Écoute Active</h3>
               <p className="text-gray-600">
@@ -180,7 +179,7 @@ const CharlotOliviaPage = () => {
 
             <div className="text-center p-6">
               <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Star className="h-10 w-10 text-green-600" />
+                <span className="text-4xl text-green-600">⭐</span><span className="hidden" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Excellence Technique</h3>
               <p className="text-gray-600">
@@ -191,7 +190,7 @@ const CharlotOliviaPage = () => {
 
             <div className="text-center p-6">
               <div className="w-20 h-20 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Shield className="h-10 w-10 text-purple-600" />
+                <span className="text-4xl text-purple-600">🛡️</span><span className="hidden" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Confort Patient</h3>
               <p className="text-gray-600">

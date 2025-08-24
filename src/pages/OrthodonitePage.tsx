@@ -1,5 +1,4 @@
 import React from 'react';
-import { Heart, Star, Clock, CheckCircle, ArrowRight, Calendar, Activity } from 'lucide-react';
 
 const OrthodonitePage = () => {
   return (
@@ -24,19 +23,19 @@ const OrthodonitePage = () => {
               />
               <div className="space-y-6 text-left">
                 <div className="flex items-center space-x-4">
-                  <CheckCircle className="h-6 w-6 text-green-600 flex-shrink-0" />
+                  <span className="text-green-600 flex-shrink-0">✅</span><span className="hidden" />
                   <span className="text-lg text-gray-700">Consultation personnalisée</span>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <CheckCircle className="h-6 w-6 text-green-600 flex-shrink-0" />
+                  <span className="text-green-600 flex-shrink-0">✅</span><span className="hidden" />
                   <span className="text-lg text-gray-700">Technologies de pointe</span>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <CheckCircle className="h-6 w-6 text-green-600 flex-shrink-0" />
+                  <span className="text-green-600 flex-shrink-0">✅</span><span className="hidden" />
                   <span className="text-lg text-gray-700">Suivi régulier et attentif</span>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <CheckCircle className="h-6 w-6 text-green-600 flex-shrink-0" />
+                  <span className="text-green-600 flex-shrink-0">✅</span><span className="hidden" />
                   <span className="text-lg text-gray-700">Résultats durables</span>
                 </div>
               </div>
@@ -51,7 +50,7 @@ const OrthodonitePage = () => {
             {/* Bagues Métalliques */}
             <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-200 transform hover:-translate-y-2">
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
-                <Star className="h-8 w-8 text-blue-600" />
+                <span className="text-3xl">⭐</span>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Bagues Métalliques</h3>
               <p className="text-gray-600 mb-4">
@@ -68,7 +67,7 @@ const OrthodonitePage = () => {
             {/* Bagues Céramiques */}
             <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-200 transform hover:-translate-y-2">
               <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
-                <Heart className="h-8 w-8 text-green-600" />
+                <span className="text-3xl">💎</span>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Bagues Céramiques</h3>
               <p className="text-gray-600 mb-4">
@@ -85,7 +84,7 @@ const OrthodonitePage = () => {
             {/* Invisalign */}
             <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-200 transform hover:-translate-y-2 border-2 border-green-200">
               <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6">
-                <Activity className="h-8 w-8 text-purple-600" />
+                <span className="text-3xl">✨</span>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Aligneurs Invisalign</h3>
               <div className="bg-green-50 px-3 py-1 rounded-full text-sm text-green-700 font-semibold mb-4 inline-block">
@@ -163,28 +162,28 @@ const OrthodonitePage = () => {
             </div>
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
-                <Star className="h-6 w-6 text-yellow-500 mt-1 flex-shrink-0" />
+                <span className="text-2xl mt-1 flex-shrink-0">🏆</span>
                 <div>
                   <h3 className="font-semibold text-gray-900 text-lg">Expertise Reconnue</h3>
                   <p className="text-gray-600">Dr Charlot Olivia, spécialiste certifiée avec 15+ ans d'expérience</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
-                <Heart className="h-6 w-6 text-red-500 mt-1 flex-shrink-0" />
+                <span className="text-2xl mt-1 flex-shrink-0">💖</span>
                 <div>
                   <h3 className="font-semibold text-gray-900 text-lg">Approche Personnalisée</h3>
                   <p className="text-gray-600">Chaque traitement est adapté à vos besoins spécifiques et votre mode de vie</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
-                <Clock className="h-6 w-6 text-blue-500 mt-1 flex-shrink-0" />
+                <span className="text-2xl mt-1 flex-shrink-0">⏰</span>
                 <div>
                   <h3 className="font-semibold text-gray-900 text-lg">Suivi Régulier</h3>
                   <p className="text-gray-600">Rendez-vous programmés et disponibilité pour toute urgence</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
-                <CheckCircle className="h-6 w-6 text-green-500 mt-1 flex-shrink-0" />
+                <span className="text-2xl mt-1 flex-shrink-0">🔬</span>
                 <div>
                   <h3 className="font-semibold text-gray-900 text-lg">Technologies Modernes</h3>
                   <p className="text-gray-600">Équipements de dernière génération pour des résultats optimaux</p>
@@ -248,9 +247,9 @@ const OrthodonitePage = () => {
               rel="noopener noreferrer"
               className="bg-white text-green-600 px-12 py-6 rounded-lg hover:bg-gray-100 transition-all duration-200 hover:shadow-lg transform hover:-translate-y-1 font-bold text-xl inline-flex items-center justify-center"
             >
-              <Calendar className="h-6 w-6 mr-3" />
+              <span className="mr-3">📅</span>
               Prendre Rendez-vous
-              <ArrowRight className="h-6 w-6 ml-3" />
+              <span className="ml-3">→</span>
             </a>
             <a 
               href="tel:0145678900" 
@@ -269,7 +268,7 @@ const OrthodonitePage = () => {
             rel="noopener noreferrer"
             className="bg-green-600 text-white px-6 py-3 rounded-full shadow-2xl hover:bg-green-700 transition-all duration-200 hover:shadow-xl transform hover:scale-105 font-bold text-lg inline-flex items-center animate-pulse"
           >
-            <Calendar className="h-5 w-5 mr-2" />
+            <span className="mr-2">📅</span>
             Prendre RDV
           </a>
         </section>
@@ -288,9 +287,9 @@ const OrthodonitePage = () => {
               rel="noopener noreferrer"
               className="bg-green-600 text-white px-12 py-6 rounded-lg hover:bg-green-700 transition-all duration-200 hover:shadow-lg transform hover:-translate-y-1 font-bold text-xl inline-flex items-center justify-center"
             >
-              <Calendar className="h-6 w-6 mr-3" />
+              <span className="mr-3">📅</span>
               Prendre Rendez-vous avec Dr Charlot Olivia
-              <ArrowRight className="h-6 w-6 ml-3" />
+              <span className="ml-3">→</span>
             </a>
             <a 
               href="tel:0145678900" 
