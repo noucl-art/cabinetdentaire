@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, Star, Clock, CheckCircle, ArrowRight, Calendar, Smile } from 'lucide-react';
+import { Heart, Star, Clock, CheckCircle, ArrowRight, Calendar, Activity } from 'lucide-react';
 
 const OrthodonitePage = () => {
   return (
@@ -85,7 +85,7 @@ const OrthodonitePage = () => {
             {/* Invisalign */}
             <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-200 transform hover:-translate-y-2 border-2 border-green-200">
               <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6">
-                <Smile className="h-8 w-8 text-purple-600" />
+                <Activity className="h-8 w-8 text-purple-600" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Aligneurs Invisalign</h3>
               <div className="bg-green-50 px-3 py-1 rounded-full text-sm text-green-700 font-semibold mb-4 inline-block">

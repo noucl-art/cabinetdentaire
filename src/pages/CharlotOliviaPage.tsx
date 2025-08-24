@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Smile, Award, Star, GraduationCap, Heart, Shield, ArrowRight } from 'lucide-react';
+import { Activity, Award, Star, GraduationCap, Heart, Shield, ArrowRight } from 'lucide-react';
 
 const CharlotOliviaPage = () => {
   return (
@@ -90,7 +90,7 @@ const CharlotOliviaPage = () => {
             {/* Omnipratique */}
             <div className="bg-blue-50 p-8 rounded-2xl">
               <div className="flex items-center mb-6">
-                <Smile className="h-12 w-12 text-blue-600 mr-4" />
+                <Activity className="h-12 w-12 text-blue-600 mr-4" />
                 <h3 className="text-2xl font-semibold text-gray-900">Dentisterie Générale</h3>
               </div>
               <ul className="space-y-3 text-gray-700">

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Smile, Heart, Shield, Award, Users, Building2, ArrowRight } from 'lucide-react';
+import { Activity, Heart, Shield, Award, Users, Building2, ArrowRight } from 'lucide-react';
 
 const HomePage = () => {
   return (
@@ -168,7 +168,7 @@ const HomePage = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-blue-50 p-8 rounded-xl hover:shadow-lg transition-all duration-200 transform hover:-translate-y-2">
               <div className="flex items-center mb-6">
-                <Smile className="h-12 w-12 text-blue-600 mr-4" />
+                <Activity className="h-12 w-12 text-blue-600 mr-4" />
                 <h3 className="text-2xl font-semibold text-gray-900">Chirurgie Dentaire</h3>
               </div>
               <ul className="space-y-3 text-gray-700">

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Smile, Award, Star, GraduationCap, Heart, Shield } from 'lucide-react';
+import { Activity, Award, Star, GraduationCap, Heart, Shield } from 'lucide-react';
 
 const CharlotVeroniquePage = () => {
   return (
@@ -87,7 +87,7 @@ const CharlotVeroniquePage = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 transform hover:-translate-y-2">
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
-                <Smile className="h-8 w-8 text-blue-600" />
+                <Activity className="h-8 w-8 text-blue-600" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Dentisterie Conservatrice</h3>
               <ul className="space-y-2 text-gray-600">

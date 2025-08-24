@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Smile, Phone, MapPin } from 'lucide-react';
+import { Activity, Phone, MapPin } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center mb-4">
-              <Smile className="h-8 w-8 text-blue-400 mr-2" />
+              <Activity className="h-8 w-8 text-blue-400 mr-2" />
               <span className="text-xl font-bold">Cabinet Charlot</span>
             </div>
             <p className="text-gray-400">
