@@ -35,19 +35,10 @@ const HomePage = () => {
             </div>
             <div className="relative">
               <img 
-                src="https://images.pexels.com/photos/5327580/pexels-photo-5327580.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                src="photos/photopraticien1.jpg" 
                 alt="Cabinet dentaire moderne" 
                 className="rounded-2xl shadow-2xl w-full h-96 object-cover"
               />
-              <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
-                <div className="flex items-center space-x-4">
-                  <Award className="h-8 w-8 text-green-600" />
-                  <div>
-                    <p className="font-semibold text-gray-900">25+ ans</p>
-                    <p className="text-sm text-gray-600">d'expérience</p>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -67,7 +58,7 @@ const HomePage = () => {
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-2xl hover:shadow-lg transition-all duration-200 transform hover:-translate-y-2">
               <div className="flex items-center mb-6">
                 <img 
-                  src="https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                  src="photos/photopraticien1.jpg" 
                   alt="Dr Charlot Véronique" 
                   className="w-20 h-20 rounded-full object-cover mr-4"
                 />
@@ -91,7 +82,7 @@ const HomePage = () => {
             <div className="bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-2xl hover:shadow-lg transition-all duration-200 transform hover:-translate-y-2">
               <div className="flex items-center mb-6">
                 <img 
-                  src="https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                  src="photos/photopraticien1.jpg" 
                   alt="Dr Charlot Olivia" 
                   className="w-20 h-20 rounded-full object-cover mr-4"
                 />
@@ -150,12 +141,12 @@ const HomePage = () => {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <img 
-                src="https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                src="photos/photopraticien1.jpg" 
                 alt="Salle d'attente" 
                 className="rounded-lg shadow-lg h-48 object-cover"
               />
               <img 
-                src="https://images.pexels.com/photos/4269693/pexels-photo-4269693.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                src="photos/photopraticien1.jpg" 
                 alt="Salle de soins" 
                 className="rounded-lg shadow-lg h-48 object-cover mt-8"
               />

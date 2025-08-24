@@ -18,7 +18,7 @@ const OrthodonitePage = () => {
             </p>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <img 
-                src="https://images.pexels.com/photos/6812540/pexels-photo-6812540.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                src="photos/photopraticien1.jpg" 
                 alt="Orthodontie moderne" 
                 className="rounded-2xl shadow-2xl w-full h-80 object-cover"
               />
@@ -156,7 +156,7 @@ const OrthodonitePage = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                src="photos/photopraticien1.jpg" 
                 alt="Dr Charlot Olivia orthodontiste" 
                 className="rounded-2xl shadow-lg w-full h-80 object-cover"
               />

@@ -9,7 +9,7 @@ const CharlotVeroniquePage = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
           <div>
             <img 
-              src="https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&w=800" 
+              src="photos/photopraticien1.jpg" 
               alt="Dr Charlot Véronique" 
               className="rounded-2xl shadow-2xl w-full h-96 object-cover"
             />
@@ -163,7 +163,7 @@ const CharlotVeroniquePage = () => {
             </div>
             <div>
               <img 
-                src="https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                src="photos/photopraticien1.jpg" 
                 alt="Cabinet dentaire" 
                 className="rounded-xl shadow-lg w-full h-80 object-cover"
               />

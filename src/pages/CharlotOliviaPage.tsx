@@ -10,7 +10,7 @@ const CharlotOliviaPage = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
           <div>
             <img 
-              src="https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=800" 
+              src="photos/photopraticien1.jpg" 
               alt="Dr Charlot Olivia" 
               className="rounded-2xl shadow-2xl w-full h-96 object-cover"
             />
