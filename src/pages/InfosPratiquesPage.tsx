@@ -304,11 +304,11 @@ const InfosPratiquesPage = () => {
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Urgences Dentaires</h3>
               <div className="space-y-4">
                 <p className="text-gray-700">
-                  En cas d'urgence dentaire, contactez-nous au plus vite :
+                  En cas d'urgence dentaire, contactez le : 
                 </p>
                 <div className="bg-red-100 p-4 rounded-lg">
                   <p className="text-red-800 font-semibold text-center">
-                    📞 01 45 67 89 00
+                    📞 15
                   </p>
                 </div>
                 <div className="space-y-2 text-sm text-gray-600">
