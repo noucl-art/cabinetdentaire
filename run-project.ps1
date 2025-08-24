@@ -1,0 +1,1 @@
+$env:PATH += ";C:\Program Files\nodejs;$env:APPDATA\npm"; npm run dev
