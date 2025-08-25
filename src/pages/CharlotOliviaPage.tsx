@@ -17,7 +17,7 @@ const CharlotOliviaPage = () => {
           <div className="space-y-6">
             <div>
               <h1 className="text-4xl font-bold text-gray-900 mb-2">Dr Charlot Olivia</h1>
-              <p className="text-2xl text-green-600 font-semibold">Chirurgien-Dentiste Omnipraticienne + Orthodontie</p>
+              <p className="text-2xl text-blue-600 font-semibold">Chirurgien-Dentiste Omnipraticienne + Orthodontie</p>
             </div>
             <p className="text-xl text-gray-600 leading-relaxed">
               Dentiste passionnée spécialisée en orthodontie et dentisterie générale. 
@@ -40,11 +40,11 @@ const CharlotOliviaPage = () => {
         {/* Formation et Diplômes */}
         <section className="mb-20">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Formation et Diplômes</h2>
-          <div className="bg-gradient-to-r from-green-50 to-green-100 p-8 rounded-2xl">
+          <div className="bg-gradient-to-r from-blue-50 to-blue-100 p-8 rounded-2xl">
             <div className="grid md:grid-cols-2 gap-8">
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
-                  <span className="text-2xl text-green-600 mt-1 flex-shrink-0">🎓</span><span className="hidden" />
+                  <span className="text-2xl text-blue-600 mt-1 flex-shrink-0">🎓</span><span className="hidden" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Doctorat en Chirurgie Dentaire</h3>
                     <p className="text-gray-600">Université Paris Descartes - Faculté de Chirurgie Dentaire</p>
@@ -87,74 +87,66 @@ const CharlotOliviaPage = () => {
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Double Expertise</h2>
           <div className="grid md:grid-cols-2 gap-8">
             {/* Omnipratique */}
-            <div className="bg-blue-50 p-8 rounded-2xl">
+            <div className="bg-green-50 p-8 rounded-2xl">
               <div className="flex items-center mb-6">
-                <span className="text-5xl text-blue-600 mr-4">🦷</span><span className="hidden" />
+                <span className="text-5xl text-green-600 mr-4">🦷</span><span className="hidden" />
                 <h3 className="text-2xl font-semibold text-gray-900">Dentisterie Générale</h3>
               </div>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-center">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
                   Soins conservateurs et préventifs
                 </li>
                 <li className="flex items-center">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
                   Détartrage et prophylaxie
                 </li>
                 <li className="flex items-center">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
                   Obturations esthétiques
                 </li>
                 <li className="flex items-center">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
                   Couronnes et bridges
                 </li>
                 <li className="flex items-center">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
                   Extractions simples
                 </li>
                 <li className="flex items-center">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
                   Soins d'urgence
                 </li>
               </ul>
             </div>
 
             {/* Orthodontie */}
-            <div className="bg-green-50 p-8 rounded-2xl">
+            <div className="bg-blue-50 p-8 rounded-2xl">
               <div className="flex items-center mb-6">
-                <span className="text-5xl text-green-600 mr-4">😁</span><span className="hidden" />
+                <span className="text-5xl text-blue-600 mr-4">😁</span><span className="hidden" />
                 <h3 className="text-2xl font-semibold text-gray-900">Orthodontie</h3>
               </div>
               <ul className="space-y-3 text-gray-700 mb-6">
                 <li className="flex items-center">
-                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
-                  Bagues métalliques et céramiques
+                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                  Aligneurs transparents (SureSmile)
                 </li>
                 <li className="flex items-center">
-                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
-                  Aligneurs transparents (Invisalign)
+                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                  Esthétique et Discrétion
                 </li>
                 <li className="flex items-center">
-                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
-                  Orthodontie linguale invisible
+                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                  Confort
                 </li>
                 <li className="flex items-center">
-                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
-                  Orthodontie interceptive enfants
-                </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
-                  Orthodontie adulte
-                </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
-                  Contention et suivi post-traitement
+                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                  Suivi régulier et personnalisé
                 </li>
               </ul>
               <Link 
                 to="/orthodontie"
-                className="inline-flex items-center text-green-600 hover:text-green-700 font-semibold"
+                className="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold"
               >
                 Découvrir nos traitements orthodontiques <span className="ml-2">→</span>
               </Link>
@@ -224,13 +216,13 @@ const CharlotOliviaPage = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               href="tel:0145678900" 
-              className="bg-green-600 text-white px-12 py-4 rounded-lg hover:bg-green-700 transition-all duration-200 hover:shadow-lg transform hover:-translate-y-1 font-semibold text-xl"
+              className="bg-blue-600 text-white px-12 py-4 rounded-lg hover:bg-blue-700 transition-all duration-200 hover:shadow-lg transform hover:-translate-y-1 font-semibold text-xl"
             >
               01 45 67 89 00
             </a>
             <Link 
               to="/orthodontie"
-              className="border-2 border-green-600 text-green-600 px-12 py-4 rounded-lg hover:bg-green-600 hover:text-white transition-all duration-200 font-semibold text-xl"
+              className="border-2 border-blue-600 text-blue-600 px-12 py-4 rounded-lg hover:bg-blue-600 hover:text-white transition-all duration-200 font-semibold text-xl"
             >
               Orthodontie
             </Link>

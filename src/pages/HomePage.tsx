@@ -54,7 +54,7 @@ const HomePage = () => {
           </div>
           
           <div className="grid md:grid-cols-2 gap-12">
-            <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-2xl hover:shadow-lg transition-all duration-200 transform hover:-translate-y-2">
+            <div className="bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-2xl hover:shadow-lg transition-all duration-200 transform hover:-translate-y-2">
               <div className="flex items-center mb-6">
                 <img 
                   src="photos/photopraticien1.jpg" 
@@ -63,22 +63,27 @@ const HomePage = () => {
                 />
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900">Dr Charlot Véronique</h3>
-                  <p className="text-blue-600 font-semibold">Omnipraticienne</p>
+                  <p className="text-green-600 font-semibold">Omnipraticienne</p>
                 </div>
               </div>
               <p className="text-gray-700 mb-6">
                 Spécialisée en dentisterie générale avec plus de 25 ans d'expérience. 
                 Expertise en soins conservateurs, prothèses et chirurgie dentaire.
               </p>
+              <div className="mb-4">
+                <p className="text-sm text-gray-600">
+                  <span className="font-semibold">Assistante :</span> Guilène
+                </p>
+              </div>
                               <Link 
                 to="/dr-charlot-veronique"
-                className="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold"
+                className="inline-flex items-center text-green-600 hover:text-green-700 font-semibold"
               >
                 En savoir plus <span className="ml-2">→</span>
               </Link>
             </div>
 
-            <div className="bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-2xl hover:shadow-lg transition-all duration-200 transform hover:-translate-y-2">
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-2xl hover:shadow-lg transition-all duration-200 transform hover:-translate-y-2">
               <div className="flex items-center mb-6">
                 <img 
                   src="photos/photopraticien1.jpg" 
@@ -87,16 +92,21 @@ const HomePage = () => {
                 />
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900">Dr Charlot Olivia</h3>
-                  <p className="text-green-600 font-semibold">Omnipraticienne + Orthodontie</p>
+                  <p className="text-blue-600 font-semibold">Omnipraticienne + Orthodontie</p>
                 </div>
               </div>
               <p className="text-gray-700 mb-6">
                 Dentiste passionnée spécialisée en orthodontie et dentisterie générale. 
                 Formation continue en techniques orthodontiques modernes.
               </p>
+              <div className="mb-4">
+                <p className="text-sm text-gray-600">
+                  <span className="font-semibold">Assistante :</span> Manon
+                </p>
+              </div>
               <Link 
                 to="/dr-charlot-olivia"
-                className="inline-flex items-center text-green-600 hover:text-green-700 font-semibold"
+                className="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold"
               >
                 En savoir plus <span className="ml-2">→</span>
               </Link>
@@ -112,7 +122,7 @@ const HomePage = () => {
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Notre Cabinet</h2>
               <p className="text-xl text-gray-600 mb-8">
-                Un environnement moderne et chaleureux situé au cœur du 16ème arrondissement de Paris.
+                Un environnement moderne et chaleureux situé au centre ville de Changé (72).
               </p>
               <div className="space-y-4">
                 <div className="flex items-start space-x-4">
@@ -125,7 +135,7 @@ const HomePage = () => {
                 <div className="flex items-start space-x-4">
                   <span className="text-2xl mt-1">🛡️</span>
                   <div>
-                    <h3 className="font-semibold text-gray-900">Hygiène Irréprochable</h3>
+                    <h3 className="font-semibold text-gray-900">Stérilisation Optimale</h3>
                     <p className="text-gray-600">Protocoles de stérilisation stricts selon les normes européennes</p>
                   </div>
                 </div>
@@ -160,7 +170,7 @@ const HomePage = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Nos Actes</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Une gamme complète de soins dentaires et orthodontiques pour toute la famille
+              Une gamme complète de soins dentaires et orthodontiques
             </p>
           </div>
           
@@ -181,15 +191,7 @@ const HomePage = () => {
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
-                  Extractions et chirurgie orale
-                </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
                   Endodontie (traitement des racines)
-                </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
-                  Parodontologie (soins des gencives)
                 </li>
               </ul>
             </div>
@@ -202,23 +204,19 @@ const HomePage = () => {
               <ul className="space-y-3 text-gray-700 mb-6">
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
-                  Bagues métalliques traditionnelles
+                  Aligneurs transparents (SureSmile)
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
-                  Bagues céramiques esthétiques
+                  Esthétique et Discrétion
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
-                  Aligneurs transparents (Invisalign)
+                  Confort
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
-                  Orthodontie interceptive (enfants)
-                </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
-                  Orthodontie adulte
+                  Suivi régulier et personnalisé
                 </li>
               </ul>
               <Link 

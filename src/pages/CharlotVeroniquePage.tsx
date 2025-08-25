@@ -16,7 +16,7 @@ const CharlotVeroniquePage = () => {
           <div className="space-y-6">
             <div>
               <h1 className="text-4xl font-bold text-gray-900 mb-2">Dr Charlot Véronique</h1>
-              <p className="text-2xl text-blue-600 font-semibold">Chirurgien-Dentiste Omnipraticienne</p>
+              <p className="text-2xl text-green-600 font-semibold">Chirurgien-Dentiste Omnipraticienne</p>
             </div>
             <p className="text-xl text-gray-600 leading-relaxed">
               Forte de plus de 25 ans d'expérience en dentisterie générale, le Dr Charlot Véronique 
@@ -38,11 +38,11 @@ const CharlotVeroniquePage = () => {
         {/* Formation et Diplômes */}
         <section className="mb-20">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Formation et Diplômes</h2>
-          <div className="bg-gradient-to-r from-blue-50 to-blue-100 p-8 rounded-2xl">
+          <div className="bg-gradient-to-r from-green-50 to-green-100 p-8 rounded-2xl">
             <div className="grid md:grid-cols-2 gap-8">
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
-                  <span className="text-2xl text-blue-600 mt-1 flex-shrink-0">🎓</span><span className="hidden" />
+                  <span className="text-2xl text-green-600 mt-1 flex-shrink-0">🎓</span><span className="hidden" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Doctorat en Chirurgie Dentaire</h3>
                     <p className="text-gray-600">Université Paris Descartes - Faculté de Chirurgie Dentaire</p>
@@ -85,8 +85,8 @@ const CharlotVeroniquePage = () => {
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Domaines d'Expertise</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 transform hover:-translate-y-2">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
-                <span className="text-4xl text-blue-600">🦷</span><span className="hidden" />
+              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
+                <span className="text-4xl text-green-600">🦷</span><span className="hidden" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Dentisterie Conservatrice</h3>
               <ul className="space-y-2 text-gray-600">
@@ -178,7 +178,7 @@ const CharlotVeroniquePage = () => {
           </p>
           <a 
             href="tel:0145678900" 
-            className="bg-blue-600 text-white px-12 py-4 rounded-lg hover:bg-blue-700 transition-all duration-200 hover:shadow-lg transform hover:-translate-y-1 font-semibold text-xl inline-block"
+            className="bg-green-600 text-white px-12 py-4 rounded-lg hover:bg-green-700 transition-all duration-200 hover:shadow-lg transform hover:-translate-y-1 font-semibold text-xl inline-block"
           >
             01 45 67 89 00
           </a>
