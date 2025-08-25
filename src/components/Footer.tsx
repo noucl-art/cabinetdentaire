@@ -32,12 +32,8 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Contact</h4>
             <div className="space-y-2 text-gray-400">
               <p className="flex items-center">
-                <span className="mr-2">📞</span>
-                02 43 84 62 74
-              </p>
-              <p className="flex items-center">
                 <span className="mr-2">📍</span>
-                10 Rue de L'Epau 72560 Changé
+                Changé (72)
               </p>
             </div>
           </div>
@@ -45,9 +41,10 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Horaires</h4>
             <div className="text-gray-400 space-y-1">
-              <p>Lun - Ven : 9h - 18h</p>
-              <p>Samedi : 9h - 13h</p>
-              <p>Dimanche : Fermé</p>
+              <p className="font-semibold text-gray-300">Dr Charlot Véronique</p>
+              <p>Lun - Jeu : 9h - 12h, 14h-18h30</p>
+              <p className="font-semibold text-gray-300 mt-2">Dr Charlot Olivia</p>
+              <p>Lun - Jeu : 9h-12h, 13h30-18h</p>
             </div>
           </div>
         </div>
