@@ -18,38 +18,49 @@ const Header = () => {
             </div>
             <span className="text-xl font-bold text-gray-900">Cabinet Dentaire Charlot</span>
           </Link>
-          <nav className="hidden md:flex items-center space-x-6">
-            <Link 
-              to="/" 
-              className={`transition-colors ${isActive('/') ? 'text-blue-600 font-semibold' : 'text-gray-700 hover:text-blue-600'}`}
+          <div className="hidden md:flex items-center space-x-6">
+            <nav className="flex items-center space-x-6">
+              <Link 
+                to="/" 
+                className={`transition-colors ${isActive('/') ? 'text-blue-600 font-semibold' : 'text-gray-700 hover:text-blue-600'}`}
+              >
+                Accueil
+              </Link>
+              <Link 
+                to="/dr-charlot-veronique" 
+                className={`transition-colors ${isActive('/dr-charlot-veronique') ? 'text-blue-600 font-semibold' : 'text-gray-700 hover:text-blue-600'}`}
+              >
+                Dr Charlot Véronique
+              </Link>
+              <Link 
+                to="/dr-charlot-olivia" 
+                className={`transition-colors ${isActive('/dr-charlot-olivia') ? 'text-blue-600 font-semibold' : 'text-gray-700 hover:text-blue-600'}`}
+              >
+                Dr Charlot Olivia
+              </Link>
+              <Link 
+                to="/orthodontie" 
+                className={`transition-colors ${isActive('/orthodontie') ? 'text-blue-600 font-semibold' : 'text-gray-700 hover:text-blue-600'}`}
+              >
+                Orthodontie
+              </Link>
+              <Link 
+                to="/infos-pratiques" 
+                className={`transition-colors ${isActive('/infos-pratiques') ? 'text-blue-600 font-semibold' : 'text-gray-700 hover:text-blue-600'}`}
+              >
+                Infos Pratiques
+              </Link>
+            </nav>
+            <a 
+              href="https://www.doctolib.fr/dentiste/change/olivia-charlot" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700 transition-all duration-200 font-semibold text-sm inline-flex items-center ml-4"
             >
-              Accueil
-            </Link>
-            <Link 
-              to="/dr-charlot-veronique" 
-              className={`transition-colors ${isActive('/dr-charlot-veronique') ? 'text-blue-600 font-semibold' : 'text-gray-700 hover:text-blue-600'}`}
-            >
-              Dr Charlot Véronique
-            </Link>
-            <Link 
-              to="/dr-charlot-olivia" 
-              className={`transition-colors ${isActive('/dr-charlot-olivia') ? 'text-blue-600 font-semibold' : 'text-gray-700 hover:text-blue-600'}`}
-            >
-              Dr Charlot Olivia
-            </Link>
-            <Link 
-              to="/orthodontie" 
-              className={`transition-colors ${isActive('/orthodontie') ? 'text-blue-600 font-semibold' : 'text-gray-700 hover:text-blue-600'}`}
-            >
-              Orthodontie
-            </Link>
-            <Link 
-              to="/infos-pratiques" 
-              className={`transition-colors ${isActive('/infos-pratiques') ? 'text-blue-600 font-semibold' : 'text-gray-700 hover:text-blue-600'}`}
-            >
-              Infos Pratiques
-            </Link>
-          </nav>
+              <span className="mr-1">📅</span>
+              Rendez-vous orthodontie
+            </a>
+          </div>
           
           {/* Mobile menu button */}
           <div className="md:hidden">

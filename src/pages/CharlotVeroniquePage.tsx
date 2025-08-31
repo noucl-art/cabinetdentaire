@@ -170,19 +170,7 @@ const CharlotVeroniquePage = () => {
           </div>
         </section>
 
-        {/* Contact */}
-        <section className="mt-20 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">Prendre Rendez-vous</h2>
-          <p className="text-xl text-gray-600 mb-8">
-            Pour une consultation avec le Dr Charlot Véronique
-          </p>
-          <a 
-            href="tel:0145678900" 
-            className="bg-green-600 text-white px-12 py-4 rounded-lg hover:bg-green-700 transition-all duration-200 hover:shadow-lg transform hover:-translate-y-1 font-semibold text-xl inline-block"
-          >
-            01 45 67 89 00
-          </a>
-        </section>
+
       </div>
     </div>
   );

@@ -17,15 +17,17 @@ const InfosPratiquesPage = () => {
           <div className="bg-gradient-to-r from-blue-600 to-green-600 text-white p-12 rounded-2xl text-center">
             <h2 className="text-3xl font-bold mb-6">Contact & Rendez-vous</h2>
             <div className="flex flex-col items-center space-y-4">
-              <span className="text-6xl mb-4">📞</span>
+              <span className="text-6xl mb-4">📅</span>
               <a 
-                href="tel:0145678900" 
+                href="https://www.doctolib.fr/dentiste/change/olivia-charlot" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-4xl font-bold hover:text-blue-200 transition-colors"
               >
-                01 45 67 89 00
+                Doctolib
               </a>
               <p className="text-xl opacity-90">
-                Prise de rendez-vous uniquement par téléphone
+                Prise de rendez-vous en ligne
               </p>
               <div className="bg-white/20 p-4 rounded-lg mt-6">
                 <p className="text-lg">
@@ -46,34 +48,19 @@ const InfosPratiquesPage = () => {
                 <h2 className="text-3xl font-bold text-gray-900">Horaires d'Ouverture</h2>
               </div>
               <div className="space-y-4">
-                <div className="flex justify-between items-center py-3 border-b border-gray-200">
-                  <span className="font-semibold text-gray-900">Lundi</span>
-                  <span className="text-gray-700">9h00 - 18h00</span>
+                <div className="mb-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">Dr Charlot Véronique</h4>
+                  <div className="text-gray-700 bg-gray-50 p-3 rounded">
+                    Lundi - Jeudi : 9h - 12h, 14h - 18h30
+                  </div>
                 </div>
-                <div className="flex justify-between items-center py-3 border-b border-gray-200">
-                  <span className="font-semibold text-gray-900">Mardi</span>
-                  <span className="text-gray-700">9h00 - 18h00</span>
+                <div className="mb-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">Dr Charlot Olivia</h4>
+                  <div className="text-gray-700 bg-blue-50 p-3 rounded">
+                    Lundi - Jeudi : 9h - 12h, 13h30 - 18h
+                  </div>
                 </div>
-                <div className="flex justify-between items-center py-3 border-b border-gray-200">
-                  <span className="font-semibold text-gray-900">Mercredi</span>
-                  <span className="text-gray-700">9h00 - 18h00</span>
-                </div>
-                <div className="flex justify-between items-center py-3 border-b border-gray-200">
-                  <span className="font-semibold text-gray-900">Jeudi</span>
-                  <span className="text-gray-700">9h00 - 18h00</span>
-                </div>
-                <div className="flex justify-between items-center py-3 border-b border-gray-200">
-                  <span className="font-semibold text-gray-900">Vendredi</span>
-                  <span className="text-gray-700">9h00 - 18h00</span>
-                </div>
-                <div className="flex justify-between items-center py-3 border-b border-gray-200">
-                  <span className="font-semibold text-gray-900">Samedi</span>
-                  <span className="text-gray-700">9h00 - 13h00</span>
-                </div>
-                <div className="flex justify-between items-center py-3">
-                  <span className="font-semibold text-gray-900">Dimanche</span>
-                  <span className="text-red-600 font-semibold">Fermé</span>
-                </div>
+
               </div>
             </div>
 
@@ -88,8 +75,8 @@ const InfosPratiquesPage = () => {
                     1
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900">Appelez le cabinet</h3>
-                    <p className="text-gray-600">01 45 67 89 00 aux heures d'ouverture</p>
+                    <h3 className="font-semibold text-gray-900">Rendez-vous en ligne</h3>
+                    <p className="text-gray-600">Via Doctolib pour l'orthodontie</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -126,55 +113,47 @@ const InfosPratiquesPage = () => {
           <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">Nous Trouver</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <div className="flex items-center mb-6">
-                <span className="text-5xl text-red-600 mr-4">📍</span>
-                <div>
-                  <h3 className="text-2xl font-bold text-gray-900">Adresse</h3>
-                  <p className="text-gray-600">Cabinet Dentaire Charlot</p>
-                </div>
+              <div className="text-center mb-6">
+                <span className="text-6xl text-red-600 mb-4 block">📍</span>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">Adresse</h3>
+                <p className="text-gray-600">Cabinet Dentaire Charlot</p>
               </div>
-              <div className="space-y-4">
-                <div className="text-lg text-gray-700">
-                  <strong>42 Avenue Victor Hugo</strong><br />
-                  75016 Paris<br />
-                  France
-                </div>
-                <div className="flex items-center space-x-2">
-                  <span className="text-blue-600">🧭</span>
-                  <a 
-                    href="https://maps.google.com/?q=42+Avenue+Victor+Hugo+75016+Paris" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-blue-600 hover:text-blue-700 font-semibold"
-                  >
-                    Voir sur Google Maps
-                  </a>
+              <div className="text-center">
+                <div className="bg-gray-50 p-6 rounded-lg inline-block">
+                  <div className="text-lg text-gray-900 font-semibold">
+                    10 Rue de l'Épau
+                  </div>
+                  <div className="text-lg text-gray-700 mt-1">
+                    72560 Changé
+                  </div>
+                  <div className="text-base text-gray-600 mt-1">
+                    Sarthe, France
+                  </div>
                 </div>
               </div>
             </div>
 
             <div className="bg-blue-50 p-8 rounded-2xl">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Transports</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Accès</h3>
               <div className="space-y-4">
                 <div className="flex items-start space-x-4">
                   <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-sm">
-                    M
+                    🚗
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">Métro</h4>
+                    <h4 className="font-semibold text-gray-900">En voiture</h4>
                     <p className="text-gray-600">
-                      <strong>Victor Hugo</strong> (Ligne 2)<br />
-                      <strong>Charles de Gaulle-Étoile</strong> (Lignes 1, 2, 6, RER A)
+                      Depuis Le Mans : 15 minutes
                     </p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <div className="w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold text-sm">
-                    B
+                    🚌
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">Bus</h4>
-                    <p className="text-gray-600">Lignes 22, 30, 52, 82</p>
+                    <h4 className="font-semibold text-gray-900">Transport en commun</h4>
+                    <p className="text-gray-600">Lignes de bus locales disponibles</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -182,10 +161,10 @@ const InfosPratiquesPage = () => {
                     P
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">Parking</h4>
+                    <h4 className="font-semibold text-gray-900">Stationnement</h4>
                     <p className="text-gray-600">
-                      Parking Victor Hugo<br />
-                      <span className="text-sm text-gray-500">Places payantes dans la rue</span>
+                      Parking gratuit disponible<br />
+                      <span className="text-sm text-gray-500">Places facilement accessibles</span>
                     </p>
                   </div>
                 </div>
@@ -198,15 +177,21 @@ const InfosPratiquesPage = () => {
             <h3 className="text-xl font-bold text-gray-900 mb-4">Plan d'accès</h3>
             <div className="w-full h-96 bg-gray-200 rounded-lg flex items-center justify-center">
               <iframe
-                src="https://www.openstreetmap.org/export/embed.html?bbox=2.2850%2C48.8700%2C2.2950%2C48.8750&layer=mapnik&marker=48.8725%2C2.2900"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=0.2752%2C47.9827%2C0.2852%2C47.9927&layer=mapnik&marker=47.987794%2C0.280256"
                 width="100%"
                 height="100%"
                 style={{ border: 0, borderRadius: '8px' }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Plan d'accès au cabinet"
+                title="Plan d'accès au cabinet - Changé (72560)"
               ></iframe>
+            </div>
+            <div className="mt-4 text-center">
+              <p className="text-sm text-gray-600">
+                <strong>Cabinet Dentaire Dr Charlot</strong><br />
+                10 Rue de l'Épau, 72560 Changé
+              </p>
             </div>
           </div>
         </section>
@@ -246,30 +231,7 @@ const InfosPratiquesPage = () => {
               </div>
             </div>
 
-            <div className="mt-12 bg-blue-50 p-8 rounded-xl">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Tiers Payant</h3>
-              <div className="grid md:grid-cols-2 gap-6">
-                <div>
-                  <h4 className="font-semibold text-gray-900 mb-2">Mutuelles Conventionnées</h4>
-                  <ul className="space-y-1 text-gray-600">
-                    <li>• Harmonie Mutuelle</li>
-                    <li>• MGEN</li>
-                    <li>• Mutuelle Générale</li>
-                    <li>• MAIF</li>
-                    <li>• Et autres mutuelles partenaires</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-gray-900 mb-2">Prise en Charge</h4>
-                  <ul className="space-y-1 text-gray-600">
-                    <li>• Sécurité Sociale</li>
-                    <li>• CMU-C / CSS</li>
-                    <li>• ALD (Affection Longue Durée)</li>
-                    <li>• Devis gratuit sur demande</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+
           </div>
         </section>
 
@@ -311,12 +273,11 @@ const InfosPratiquesPage = () => {
                   </p>
                 </div>
                 <div className="space-y-2 text-sm text-gray-600">
-                  <p><strong>Urgences acceptées :</strong></p>
+                  <p><strong> Quand appeler :</strong></p>
                   <ul className="list-disc list-inside space-y-1 ml-4">
                     <li>Douleurs dentaires intenses</li>
                     <li>Traumatismes dentaires</li>
                     <li>Infections et abcès</li>
-                    <li>Prothèses cassées</li>
                   </ul>
                 </div>
               </div>

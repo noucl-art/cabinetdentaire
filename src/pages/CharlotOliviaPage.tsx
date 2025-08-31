@@ -58,7 +58,13 @@ const CharlotOliviaPage = () => {
               </div>
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
-                  <span className="text-2xl text-purple-600 mt-1 flex-shrink-0">⭐</span><span className="hidden" />
+                  <div className="mt-1 flex-shrink-0">
+                    <img 
+                      src="/photos/Gouttieres.png" 
+                      alt="Gouttières" 
+                      className="w-8 h-8 object-contain"
+                    />
+                  </div>
                   <div>
                     <h3 className="font-semibold text-gray-900">Certification Invisalign</h3>
                     <p className="text-gray-600">Formation spécialisée en aligneurs transparents</p>
@@ -220,20 +226,14 @@ const CharlotOliviaPage = () => {
           <p className="text-xl text-gray-600 mb-8">
             Pour une consultation en orthodontie avec le Dr Charlot Olivia
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a 
-              href="tel:0243846274" 
-              className="bg-blue-600 text-white px-12 py-4 rounded-lg hover:bg-blue-700 transition-all duration-200 hover:shadow-lg transform hover:-translate-y-1 font-semibold text-xl"
-            >
-              02 43 84 62 74
-            </a>
+          <div className="flex justify-center">
             <a 
               href="https://www.doctolib.fr/dentiste/change/olivia-charlot" 
               target="_blank"
               rel="noopener noreferrer"
-              className="border-2 border-blue-600 text-blue-600 px-12 py-4 rounded-lg hover:bg-blue-600 hover:text-white transition-all duration-200 font-semibold text-xl"
+              className="bg-blue-600 text-white px-12 py-4 rounded-lg hover:bg-blue-700 transition-all duration-200 hover:shadow-lg transform hover:-translate-y-1 font-semibold text-xl"
             >
-              Doctolib
+              Prendre Rendez-vous sur Doctolib
             </a>
           </div>
         </section>

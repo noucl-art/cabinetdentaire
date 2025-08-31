@@ -257,18 +257,7 @@ const OrthodonitePage = () => {
 
 
 
-        {/* Bouton RDV très visible en haut */}
-        <section className="fixed top-20 right-6 z-40">
-          <a 
-            href="https://www.doctolib.fr/dentiste/change/olivia-charlot" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="bg-blue-600 text-white px-6 py-3 rounded-full shadow-2xl hover:bg-blue-700 transition-all duration-200 hover:shadow-xl transform hover:scale-105 font-bold text-lg inline-flex items-center animate-pulse"
-          >
-            <span className="mr-2">📅</span>
-            Prendre RDV
-          </a>
-        </section>
+
 
         {/* Ancien Call to Action transformé */}
         <section className="bg-gradient-to-r from-blue-50 to-blue-50 p-12 rounded-2xl text-center">
