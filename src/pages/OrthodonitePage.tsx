@@ -9,7 +9,7 @@ const OrthodonitePage = () => {
           <div className="max-w-4xl mx-auto">
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
               Orthodontie
-              <span className="text-green-600"> Moderne</span>
+              <span className="text-blue-600"> Moderne</span>
             </h1>
             <p className="text-2xl text-gray-600 mb-8 leading-relaxed">
               Retrouvez un sourire harmonieux grâce à nos traitements orthodontiques 
@@ -23,21 +23,44 @@ const OrthodonitePage = () => {
               />
               <div className="space-y-6 text-left">
                 <div className="flex items-center space-x-4">
-                  <span className="text-green-600 flex-shrink-0">✅</span><span className="hidden" />
+                  <span className="text-blue-600 flex-shrink-0">✅</span><span className="hidden" />
                   <span className="text-lg text-gray-700">Consultation personnalisée</span>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <span className="text-green-600 flex-shrink-0">✅</span><span className="hidden" />
+                  <span className="text-blue-600 flex-shrink-0">✅</span><span className="hidden" />
                   <span className="text-lg text-gray-700">Technologies de pointe</span>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <span className="text-green-600 flex-shrink-0">✅</span><span className="hidden" />
+                  <span className="text-blue-600 flex-shrink-0">✅</span><span className="hidden" />
                   <span className="text-lg text-gray-700">Suivi régulier et attentif</span>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <span className="text-green-600 flex-shrink-0">✅</span><span className="hidden" />
+                  <span className="text-blue-600 flex-shrink-0">✅</span><span className="hidden" />
                   <span className="text-lg text-gray-700">Résultats durables</span>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Logos partenaires */}
+        <section className="mb-20">
+          <div className="text-center">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8">Nos Partenaires</h2>
+            <div className="flex justify-center items-center space-x-12">
+              <div className="flex items-center justify-center">
+                <img 
+                  src="/photos/Dentsply_sirona.svg" 
+                  alt="Dentsply Sirona" 
+                  className="h-16 w-auto grayscale hover:grayscale-0 transition-all duration-200"
+                />
+              </div>
+              <div className="flex items-center justify-center">
+                <img 
+                  src="/photos/fgsoco.png" 
+                  alt="FGSOCO" 
+                  className="h-16 w-auto grayscale hover:grayscale-0 transition-all duration-200"
+                />
               </div>
             </div>
           </div>
@@ -46,48 +69,14 @@ const OrthodonitePage = () => {
         {/* Types de Traitements */}
         <section className="mb-20">
           <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">Nos Traitements Orthodontiques</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Bagues Métalliques */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-200 transform hover:-translate-y-2">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
-                <span className="text-3xl">⭐</span>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Bagues Métalliques</h3>
-              <p className="text-gray-600 mb-4">
-                Solution classique et efficace pour tous types de malpositions. 
-                Robustes et économiques, idéales pour les adolescents.
-              </p>
-              <ul className="space-y-2 text-sm text-gray-600">
-                <li>• Traitement de tous les cas complexes</li>
-                <li>• Durée : 18 à 36 mois</li>
-                <li>• Excellent rapport qualité-prix</li>
-              </ul>
-            </div>
-
-            {/* Bagues Céramiques */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-200 transform hover:-translate-y-2">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
-                <span className="text-3xl">💎</span>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Bagues Céramiques</h3>
-              <p className="text-gray-600 mb-4">
-                Alternative esthétique aux bagues métalliques. Discrètes et 
-                efficaces, parfaites pour les adultes soucieux de l'esthétique.
-              </p>
-              <ul className="space-y-2 text-sm text-gray-600">
-                <li>• Couleur proche de la dent</li>
-                <li>• Durée : 18 à 36 mois</li>
-                <li>• Confort et discrétion</li>
-              </ul>
-            </div>
-
-            {/* Invisalign */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-200 transform hover:-translate-y-2 border-2 border-green-200">
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* Le traitement par aligneur - EN PREMIER */}
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-200 transform hover:-translate-y-2 border-2 border-blue-200">
               <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6">
                 <span className="text-3xl">✨</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Aligneurs Invisalign</h3>
-              <div className="bg-green-50 px-3 py-1 rounded-full text-sm text-green-700 font-semibold mb-4 inline-block">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Le traitement par aligneur</h3>
+              <div className="bg-blue-50 px-3 py-1 rounded-full text-sm text-blue-700 font-semibold mb-4 inline-block">
                 Recommandé
               </div>
               <p className="text-gray-600 mb-4">
@@ -100,15 +89,48 @@ const OrthodonitePage = () => {
                 <li>• Durée : 12 à 24 mois</li>
               </ul>
             </div>
+
+            {/* Simplicité */}
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-200 transform hover:-translate-y-2">
+              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                <span className="text-3xl">⚡</span>
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Simplicité</h3>
+              <ul className="space-y-2 text-sm text-gray-600">
+                <li>• Traitement entièrement réalisé au cabinet</li>
+                <li>• Tarif fixe, sans surprise ou surcoût</li>
+                <li>• Suivi continu</li>
+                <li>• Facilité de paiement</li>
+              </ul>
+            </div>
+
+            {/* Pochette de traitement */}
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-200 transform hover:-translate-y-2">
+              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
+                <span className="text-3xl">🎁</span>
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Pochette de traitement garnie</h3>
+              <ul className="space-y-2 text-sm text-gray-600 mb-4">
+                <li>• Brosse à dent de voyage</li>
+                <li>• Pastilles d'entretien</li>
+                <li>• Boîte de transport</li>
+              </ul>
+              <div className="border-t pt-4">
+                <h4 className="font-semibold text-gray-900 mb-2">V-pro</h4>
+                <p className="text-sm text-gray-600 mb-3">Système réduisant les douleurs du traitement</p>
+                <h4 className="font-semibold text-gray-900 mb-2">Environnement</h4>
+                <p className="text-sm text-gray-600">Toutes les gouttières sont recyclées par Eco-Be</p>
+              </div>
+            </div>
           </div>
         </section>
 
         {/* Processus de Traitement */}
-        <section className="mb-20 bg-gradient-to-r from-green-50 to-blue-50 p-12 rounded-2xl">
+        <section className="mb-20 bg-gradient-to-r from-blue-50 to-blue-50 p-12 rounded-2xl">
           <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">Votre Parcours Orthodontique</h2>
           <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="w-16 h-16 bg-green-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+              <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
                 1
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Consultation</h3>
@@ -118,7 +140,7 @@ const OrthodonitePage = () => {
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-green-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+              <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
                 2
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Plan de Traitement</h3>
@@ -128,7 +150,7 @@ const OrthodonitePage = () => {
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-green-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+              <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
                 3
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Traitement Actif</h3>
@@ -138,7 +160,7 @@ const OrthodonitePage = () => {
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-green-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+              <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
                 4
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Contention</h3>
@@ -233,32 +255,7 @@ const OrthodonitePage = () => {
           </div>
         </section>
 
-        {/* Call to Action */}
-        <section className="bg-gradient-to-r from-green-600 to-blue-600 text-white p-12 rounded-2xl text-center mb-12">
-          <h2 className="text-4xl font-bold mb-6">Prêt à Transformer Votre Sourire ?</h2>
-          <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Prenez rendez-vous dès aujourd'hui pour une consultation personnalisée 
-            et découvrez le traitement orthodontique qui vous convient le mieux.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a 
-              href="https://www.doctolib.fr/dentiste/change/olivia-charlot" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="bg-white text-green-600 px-12 py-6 rounded-lg hover:bg-gray-100 transition-all duration-200 hover:shadow-lg transform hover:-translate-y-1 font-bold text-xl inline-flex items-center justify-center"
-            >
-              <span className="mr-3">📅</span>
-              Prendre Rendez-vous
-              <span className="ml-3">→</span>
-            </a>
-            <a 
-              href="tel:0145678900" 
-              className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white hover:text-green-600 transition-all duration-200 font-semibold text-lg"
-            >
-              Ou appelez : 01 45 67 89 00
-            </a>
-          </div>
-        </section>
+
 
         {/* Bouton RDV très visible en haut */}
         <section className="fixed top-20 right-6 z-40">
@@ -266,7 +263,7 @@ const OrthodonitePage = () => {
             href="https://www.doctolib.fr/dentiste/change/olivia-charlot" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="bg-green-600 text-white px-6 py-3 rounded-full shadow-2xl hover:bg-green-700 transition-all duration-200 hover:shadow-xl transform hover:scale-105 font-bold text-lg inline-flex items-center animate-pulse"
+            className="bg-blue-600 text-white px-6 py-3 rounded-full shadow-2xl hover:bg-blue-700 transition-all duration-200 hover:shadow-xl transform hover:scale-105 font-bold text-lg inline-flex items-center animate-pulse"
           >
             <span className="mr-2">📅</span>
             Prendre RDV
@@ -274,7 +271,7 @@ const OrthodonitePage = () => {
         </section>
 
         {/* Ancien Call to Action transformé */}
-        <section className="bg-gradient-to-r from-blue-50 to-green-50 p-12 rounded-2xl text-center">
+        <section className="bg-gradient-to-r from-blue-50 to-blue-50 p-12 rounded-2xl text-center">
           <h2 className="text-4xl font-bold mb-6">Prêt à Transformer Votre Sourire ?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Prenez rendez-vous dès aujourd'hui pour une consultation personnalisée 
@@ -285,18 +282,13 @@ const OrthodonitePage = () => {
               href="https://www.doctolib.fr/dentiste/change/olivia-charlot" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-green-600 text-white px-12 py-6 rounded-lg hover:bg-green-700 transition-all duration-200 hover:shadow-lg transform hover:-translate-y-1 font-bold text-xl inline-flex items-center justify-center"
+              className="bg-blue-600 text-white px-12 py-6 rounded-lg hover:bg-blue-700 transition-all duration-200 hover:shadow-lg transform hover:-translate-y-1 font-bold text-xl inline-flex items-center justify-center"
             >
               <span className="mr-3">📅</span>
               Prendre Rendez-vous avec Dr Charlot Olivia
               <span className="ml-3">→</span>
             </a>
-            <a 
-              href="tel:0145678900" 
-              className="border-2 border-green-600 text-green-600 px-8 py-4 rounded-lg hover:bg-green-600 hover:text-white transition-all duration-200 font-semibold text-lg"
-            >
-              Ou appelez : 01 45 67 89 00
-            </a>
+
           </div>
         </section>
       </div>

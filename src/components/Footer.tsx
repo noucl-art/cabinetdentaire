@@ -14,7 +14,7 @@ const Footer = () => {
               <span className="text-xl font-bold">Cabinet Charlot</span>
             </div>
             <p className="text-gray-400">
-              Cabinet dentaire moderne à Paris 16ème, spécialisé en dentisterie générale et orthodontie.
+              Cabinet dentaire moderne à Changé (72), spécialisé en dentisterie générale et orthodontie.
             </p>
           </div>
           
@@ -29,12 +29,16 @@ const Footer = () => {
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Contact</h4>
+            <h4 className="font-semibold mb-4">Prise de rendez-vous<br/>orthodontie</h4>
             <div className="space-y-2 text-gray-400">
-              <p className="flex items-center">
-                <span className="mr-2">📍</span>
-                Changé (72)
-              </p>
+              <a 
+                href="https://www.doctolib.fr/dentiste/change/olivia-charlot" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block text-gray-400 hover:text-white transition-colors"
+              >
+                Doctolib
+              </a>
             </div>
           </div>
           

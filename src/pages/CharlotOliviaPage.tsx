@@ -26,12 +26,8 @@ const CharlotOliviaPage = () => {
             </p>
             <div className="flex items-center space-x-4">
               <div className="flex items-center">
-                <span className="text-yellow-500 mr-2">🏆</span><span className="hidden" />
-                <span className="font-semibold text-gray-900">15+ ans d'expérience</span>
-              </div>
-              <div className="flex items-center">
                 <span className="text-yellow-500 mr-2">⭐</span><span className="hidden" />
-                <span className="font-semibold text-gray-900">Spécialiste orthodontie</span>
+                <span className="font-semibold text-gray-900">Formation en aligneurs dentaires</span>
               </div>
             </div>
           </div>
@@ -48,7 +44,7 @@ const CharlotOliviaPage = () => {
                   <div>
                     <h3 className="font-semibold text-gray-900">Doctorat en Chirurgie Dentaire</h3>
                     <p className="text-gray-600">Université Paris Descartes - Faculté de Chirurgie Dentaire</p>
-                    <p className="text-sm text-gray-500">2008</p>
+                    <p className="text-sm text-gray-500">2022</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -66,16 +62,27 @@ const CharlotOliviaPage = () => {
                   <div>
                     <h3 className="font-semibold text-gray-900">Certification Invisalign</h3>
                     <p className="text-gray-600">Formation spécialisée en aligneurs transparents</p>
-                    <p className="text-sm text-gray-500">2015</p>
+                    <p className="text-sm text-gray-500">2025</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <span className="text-2xl text-red-500 mt-1 flex-shrink-0">❤️</span><span className="hidden" />
+                  <span className="text-2xl text-red-500 mt-1 flex-shrink-0">🏅</span><span className="hidden" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Formation en Orthodontie Linguale</h3>
-                    <p className="text-gray-600">Techniques orthodontiques invisibles</p>
-                    <p className="text-sm text-gray-500">2018</p>
+                    <h3 className="font-semibold text-gray-900">Diplôme FGSOCO</h3>
+                    <p className="text-gray-600">Formation spécialisée en orthodontie</p>
+                    <p className="text-sm text-gray-500">2026</p>
                   </div>
+                </div>
+              </div>
+            </div>
+            <div className="mt-8">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Formations Continues</h3>
+              <div className="flex items-start space-x-4">
+                <span className="text-2xl text-green-600 mt-1 flex-shrink-0">📚</span><span className="hidden" />
+                <div>
+                  <h4 className="font-semibold text-gray-900">Endodontie</h4>
+                  <p className="text-gray-600">Formation continue spécialisée</p>
+                  <p className="text-sm text-gray-500">2022</p>
                 </div>
               </div>
             </div>
@@ -211,21 +218,23 @@ const CharlotOliviaPage = () => {
         <section className="text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Prendre Rendez-vous</h2>
           <p className="text-xl text-gray-600 mb-8">
-            Pour une consultation avec le Dr Charlot Olivia
+            Pour une consultation en orthodontie avec le Dr Charlot Olivia
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="tel:0145678900" 
+              href="tel:0243846274" 
               className="bg-blue-600 text-white px-12 py-4 rounded-lg hover:bg-blue-700 transition-all duration-200 hover:shadow-lg transform hover:-translate-y-1 font-semibold text-xl"
             >
-              01 45 67 89 00
+              02 43 84 62 74
             </a>
-            <Link 
-              to="/orthodontie"
+            <a 
+              href="https://www.doctolib.fr/dentiste/change/olivia-charlot" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="border-2 border-blue-600 text-blue-600 px-12 py-4 rounded-lg hover:bg-blue-600 hover:text-white transition-all duration-200 font-semibold text-xl"
             >
-              Orthodontie
-            </Link>
+              Doctolib
+            </a>
           </div>
         </section>
       </div>
